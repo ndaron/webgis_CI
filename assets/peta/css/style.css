@@ -1,0 +1,332 @@
+body{background:url(../img/bg_hatch_grey_dark.jpg);}
+
+#kotak_luar{border:0px solid red;
+width:1000px;
+margin:0 auto;}
+
+#header{border:0px solid #0F0;
+height:150px;
+background:url(../img/Desert.jpg) repeat-y right;
+-moz-border-radius:5px;}
+#judul{border:0px solid #F90;
+width:370px;
+color:#F60;
+float:left;
+font-family:"Arial Black", Gadget, sans-serif;
+font-size:22px;
+margin:10px;
+text-decoration:underline;}
+
+#menu{border:0px solid #63F;
+width:400px;
+float:right;}
+ul.ul_nav {position:relative;
+display:inline;
+}
+
+#legenda_peta{position:relative;
+float:left;
+left:20px;
+top:-30px;}
+li.li_nav {position:relative;
+background:url(../img/bg_punched.png);
+padding:15px;
+list-style:none;
+display:inline;
+-moz-border-radius:5px;}
+li.li_nav a{color:#F90;}
+
+li.li_nav a:hover {color:#C00;
+font-weight:bold;}
+
+li.li_nav:hover {position:relative;
+background:url(../img/bg_tile_01.jpg);
+padding:15px;
+list-style:none;
+display:inline;
+-moz-border-radius:5px;}
+
+#baner{border:0px solid #CC0;
+width:1100px;
+height:200px;}
+
+img#img_baner{border:0px solid red;
+width:700px;
+height:200px;
+}
+
+#main_isi{border:0px solid red;
+min-height:822px;
+box-shadow: 0 0 2px #ffffff;
+-moz-border-radius:10px;
+background:url(../img/bg-body.png);}
+
+#isi-kanan{border:0px solid blue;
+width:300px;
+float:left;
+margin:10px;
+position:relative;
+left:40px;
+top:10px;
+-moz-border-radius:10px;}
+img#ptmalang{-moz-border-radius:10px}
+
+#isi-kiri{border:0px solid #C30;
+width:570px;
+top:10px;
+float:left;
+margin:10px;
+min-height:400px;
+position:relative;
+left:20px;
+background:url(../img/bg.gif);
+-moz-border-radius:10px;
+text-align:justify;
+padding:20px;}
+#footer{border:0px solid #0F0;
+min-height:50px;
+background:#6FD601;
+text-align:center;
+height:50px;
+width:1000px;
+-moz-border-radius:10px;}
+
+#isi_footer{width:300px;
+height:30px;
+border:0px solid black;
+margin:0 auto;
+font-family:Arial,Helvetica,sans-serif;
+font-weight:bold;
+font-size:11px;}
+
+#tprofil{margin:20px;}
+
+#isi_profil{border:0px solid red;
+float:left;
+position:relative;
+left:28px;
+margin:20px;
+width:900px;
+background:#FC0;
+-moz-border-radius:10px;
+}
+img#ft_profil{border:0px solid #F90;
+width:150px;
+-moz-border-radius:10px;
+margin:20px;
+box-shadow: 0 0 10px #666;}
+/*=================PETA======================================*/
+#map{border:1px solid grey;
+width:700px;
+margin:20px;
+height:700px;
+-moz-border-radius:5px;
+box-shadow: 0 0 7px #000000;
+float:left;
+display:;
+position:relative;
+top:-20px;}
+
+#map2{border:1px solid grey;
+width:700px;
+margin:20px;
+height:700px;
+-moz-border-radius:5px;
+box-shadow: 0 0 7px #000000;
+float:left;
+display:;
+position:relative;
+top:-20px;}
+
+#map3{border:1px solid grey;
+width:550px;
+height:700px;
+-moz-border-radius:5px;
+box-shadow: 0 0 7px #000000;
+float:right;
+margin:25px;
+display:;
+position:relative;
+top:0px;}
+
+#map_pkt{border:1px solid grey;
+width:900px;
+height:700px;
+-moz-border-radius:5px;
+box-shadow: 0 0 7px #000000;
+display:;
+position:relative;
+left:50px;}
+/*=================PETA======================================*/
+#fpencarian{border:0px solid red;
+height:30px;}
+table#tbl_cari{border:0px;
+position:relative;
+left:4px;
+}
+select#kotak-cari{width:200px;
+height:30px;
+-moz-border-radius:5px;}
+
+#scrol2{float:left;}
+table#tscrol2{
+position:relative;
+border:1px solid grey;
+-moz-border-radius:5px;
+box-shadow: 0 0 7px #000000;
+float:left;}
+
+select#pl-lokasi{width:200px;
+height:30px;}
+
+#isi-scrol2{font-family: arial;
+font-size: 12px; 
+overflow: scroll; 
+background: #FFFFFF; 
+border-color: #CCCCCC; 
+width: 250px; 
+height:200px;
+-moz-border-radius:5px;
+box-shadow: 0 0 7px #000000;}
+
+#isi-scrol_mk{font-family: arial;
+font-size: 12px; 
+overflow: scroll; 
+background: #FFFFFF; 
+border-color: #CCCCCC; 
+width: 250px; 
+height:200px;
+-moz-border-radius:5px;
+box-shadow: 0 0 7px #000000;}
+
+#kotak-dtl_pt{border:1px solid red;
+width:1000px;
+margin:0 auto;}
+#isi_dtl{border:1px solid #0F0;
+min-height:900px;
+background:url(../img/bg.gif);}
+#baner-pt{background:url(../img/heder.gif);}
+#judul_dtl_pt{border:1px solid red;
+height:50px;
+color:#F60;
+}
+#judul_dtl_pt h3{font-size:26px;
+font-family:Arial, Helvetica, sans-serif;}
+
+table#tbl_pt{width:330px;
+padding:10px;
+background:#F60;
+-moz-border-radius:5px;
+margin:10px;
+float:left;
+position:relative;
+top:15px;
+font-size:12px;}
+input#input_pt{height:20px;
+width:180px;
+margin:1px;
+font-size:11px;}
+textarea#text_pt{margin:1px;
+width:180px;
+height:80px;
+font-size:11px;}
+
+#lst_pelayanan{border:0px solid red;
+width:330px;
+margin:20px;
+position:relative;
+left:-10px;
+float:left;
+height:150px;
+-moz-border-radius:5px;
+overflow: scroll; 
+background:url(../img/bglines.png);
+box-shadow: 0 0 7px #000000;}
+
+#lst_jurusan{border:0px solid red;
+width:230px;
+margin:20px;
+position:relative;
+left:100px;
+float:left;
+height:150px;
+-moz-border-radius:5px;
+overflow: scroll; 
+background:url(../img/bglines.png);
+box-shadow: 0 0 7px #000000;}
+
+img#fdtl_peta_pt{
+position:relative;
+margin-left:0px;
+margin-right:20px;
+margin-top:10px;
+width:200px;
+box-shadow: 0 0 7px #000000;
+-moz-border-radius:5px;}
+
+
+#show{position:fixed;
+z-index:1000;
+display:none;
+}
+
+#bgoverlay{position:fixed;
+background:#000;
+-moz-opacity:0.5;
+opacity:0.8;
+filter:alpha(opacity=50);
+border:1px solid black;
+top:0px;
+left:0px;
+width:100%;
+height:100%;
+padding:10px;}
+
+#subBg{position:relative;
+background:#09F;
+border:1px solid black;
+width:800px;
+overflow: scroll; 
+height:500px;
+top:50px;
+-moz-border-radius:10px;
+box-shadow: 0 0 7px #000000;
+left:80px;
+}
+table#tbl_sub{position:relative;
+background:#FFF;
+}
+
+tr#hov {color:#0000;
+font-size:12px;
+font-family:"Calibri", cursive;}
+
+tr#hov:hover{
+background-color:#9CC;
+color:black;
+text-decoration:underline;
+}
+tr#tprofil{background:#000;
+border:1px solid grey;
+color:#F90;
+font-size:14px;
+font-weight:bold;
+font-family:"Calibri", cursive;
+text-align:center;}
+table#form-src{float:left;}
+select#kotak-cari{width:200px;}
+select#cr_pkt{position:relative;
+margin-top:-10px;
+width:200px;}
+select#cr_pkt2{position:relative;
+margin-top:-10px;
+width:220px;}
+
+table#scrol_jurusan{float:left;
+position:relative;
+}
+img#poin_lgd{position:relative;
+width:30px;
+float:right;}
+#lgd{font-weight:bold;}
+
